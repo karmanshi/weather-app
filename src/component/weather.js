@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Weather = (weatherData) => {
     console.log(weatherData)
@@ -16,7 +16,7 @@ const Weather = (weatherData) => {
                                 {weatherData.sys.country}
                             </p>
                             <p className='text-sm'>
-                                
+
                             </p>
                         </div>
                     </div>
